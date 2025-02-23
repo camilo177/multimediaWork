@@ -17,7 +17,7 @@ export default function ModeloPractica() {
   // ────────────── Referencias de audio ──────────────
   const audioSilla = useRef(new Audio("/assets/chair-move.mp3")); // 🔹 Sonido de la silla
   const audioAmbiente = useRef(new Audio("/assets/ambiente.mp3"));  // 🔊 Sonido ambiente
-  const audioPinguino = useRef(new Audio("/assets/.mp3")); // 🔹 Sonido del pingüino
+  const audioPinguino = useRef(new Audio("/assets/pinguin.mp3")); // 🔹 Sonido del pingüino
 
   // ────────────── Configuración del video ──────────────
   const videoRef = useRef(document.createElement("video"));
